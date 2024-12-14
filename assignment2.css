@@ -33,6 +33,8 @@ div{
 }
 .results{
     display: block;
+    background-color: lightgray;
+    border-radius: 5px;
 }
 p{
     border: solid color(black) 2px;
