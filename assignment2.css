@@ -1,0 +1,44 @@
+/**global**/
+
+.container{
+    width: 80%;
+}
+
+/** header **/
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+/** utilities **/
+button{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    height: 50px;
+}
+
+/** body **/
+
+div{
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px;
+}
+.convert{
+    display: flex;
+    border: 2px;
+}
+.results{
+    display: block;
+}
+p{
+    border: solid color(black) 2px;
+}
+.weather{
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+}

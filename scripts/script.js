@@ -41,3 +41,5 @@ let area = (radius ** 2) * Math.PI
 console.log("The area of a circle with a radius of " + radius + "cm is: " + area + " centimeters squared.");
 console.log("The radius squared is: " + radius **2)
 console.log("The radius squared times Pi is: " + radius **2 * Math.PI)
+
+
