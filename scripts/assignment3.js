@@ -29,7 +29,7 @@ function convertTemperature(){
 
         if(celsius<=0){
             document.getElementById("weather").classList.add("cold");
-        }else if(fahrenheit<=25){
+        }else if(celsius<=25){
             document.getElementById("weather").classList.add("nice");
         }else{
             document.getElementById("weather").classList.add("hot");
