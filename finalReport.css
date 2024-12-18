@@ -1,0 +1,62 @@
+/**global**/
+
+.container{
+    background-color: lightblue;
+}
+p{
+    border: solid color(black) 2px;
+}
+
+/** header **/
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/** utilities **/
+button{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    height: 50px;
+}
+
+/** body **/
+
+.convert{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.result{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.cold{
+    color: blue;
+}
+.nice{
+    color: rgb(41, 121, 41);
+}
+.hot{
+    color: red;
+}
+.weatherIcons{
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+
+}
+td{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 4px;
+}
